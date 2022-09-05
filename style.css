@@ -1,0 +1,56 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+    color: #dfdfdf;
+    background: #202020;
+}
+h1{
+	text-align: left;
+	margin: 100px 10px 0;
+	padding: 10px;
+
+}
+.menos{
+	display: none;
+}
+.container{
+	max-width: 30em;
+	margin: auto ;
+}
+
+.acordeon{
+	margin: auto;
+	max-width: 30em;	
+	border-bottom: solid 1px;
+}
+.etiqueta{
+	padding: 10px;
+	margin: 5px;
+	display: flex;
+	justify-content: space-between;
+	cursor: pointer;
+}
+.sub{
+	padding: 0px;
+	margin: 0px;
+	height: 0;
+	overflow: hidden;
+	
+}
+
+.active .sub{
+	padding: 10px;
+	margin: 5px;
+	color: #9f9f9f;
+	height: auto;
+}
+
+.active .mas{
+	display: none;
+}
+.active .menos{
+	display: block;
+}
